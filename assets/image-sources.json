@@ -1,0 +1,109 @@
+{
+  "note": "External images are style references only, not representations of confirmed EMA inventory or brand affiliation. Obtain permission or replace with owned supplier photos before commercial launch. Never use model or random image URLs.",
+  "hero": {
+    "imageUrl": "https://mediclo.com/cdn/shop/files/navy__mediclo_scrubs_flat_lay.png?v=1783459360&width=1000",
+    "sourcePage": "https://mediclo.com/"
+  },
+  "products": [
+    {
+      "product": "Royal Blue Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/royal_blue__mediclo_scrubs_flat_lay.png?v=1783459845&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Hunter Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/hunter_green__mediclo_scrubs_flat_lay.png?v=1783621271&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Ceil Blue Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/ceil_blue__mediclo_scrubs_flat_lay.png?v=1783458862&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Black Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/black_mediclo_scrubs_flat_lay2.png?v=1783457838&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Coffee Brown Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/coffee_brown__mediclo_scrubs_flat_lay.png?v=1783459262&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Terracotta Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/terracota__mediclo_scrubs_flat_lay.png?v=1783621223&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Island Blue Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/island_blue__mediclo_scrubs_flat_lay.png?v=1783459500&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Paradise Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/paradise_green__mediclo_scrubs_flat_lay.png?v=1783621257&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Lavender Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/lavender__mediclo_scrubs_flat_lay.png?v=1783633663&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Lemon Yellow Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/lemon_yellow__mediclo_scrubs_flat_lay.png?v=1783621248&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Stone Blue Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/stone_blue_mediclo_scrubs_flat_lay.png?v=1783458197&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Spruce Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/spruce_green_mediclo_scrubs_flat_lay2.png?v=1783458420&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Heather Grey Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/heather_gray__mediclo_scrubs_flat_lay.png?v=1783458464&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Mauve Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/mauve__mediclo_scrubs_flat_lay.png?v=1783621157&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Sage Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/sage_green__mediclo_scrubs_flat_lay.png?v=1783621184&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Caribbean Blue Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/caribbean_blue__mediclo_scrubs_flat_lay.png?v=1783459318&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Olive Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/olive_green_mediclo_scrubs_flat_lay.png?v=1783628289&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "Surgical Green Scrub Set",
+      "imageUrl": "https://mediclo.com/cdn/shop/files/surgical_green__mediclo_scrubs_flat_lay.png?v=1783621196&width=700",
+      "sourcePage": "https://mediclo.com/"
+    },
+    {
+      "product": "White Medical Clogs",
+      "imageUrl": "https://wholesalescrubs.com/wp-content/uploads/2019/11/White-Light-nursing-clogs-Natural-Uniform-Strapless-1-600x600.png",
+      "sourcePage": "https://wholesalescrubs.com/"
+    },
+    {
+      "product": "Black Medical Clogs",
+      "imageUrl": "https://wholesalescrubs.com/wp-content/uploads/2019/11/Black-Light-nursing-clogs-Natural-Uniform-Strapless-1-600x800.png",
+      "sourcePage": "https://wholesalescrubs.com/"
+    }
+  ]
+}

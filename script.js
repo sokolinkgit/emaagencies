@@ -18,12 +18,14 @@ document.querySelectorAll('[data-filter]').forEach(button => button.addEventList
   document.querySelectorAll('.product').forEach(product => {
     product.hidden = button.dataset.filter !== 'all' && button.dataset.filter !== product.dataset.category;
   });
+  const visibleCount = document.querySelectorAll('.product:not([hidden])').length;
+  document.querySelector('#product-count').textContent = `SHOWING ${visibleCount} PRODUCTS`;
 }));
 document.querySelectorAll('[data-filter]').forEach(button => button.setAttribute('aria-pressed', String(button.classList.contains('selected'))));
 const slides = [
-  { image: 'assets/scrubs.svg', alt: 'Navy medical scrub set illustration', kicker: 'THE EVERYDAY ESSENTIAL', title: 'Made to move with you.' },
-  { image: 'assets/coat.svg', alt: 'White laboratory coat illustration', kicker: 'CONFIDENCE IN EVERY DETAIL', title: 'Professional. Practical. You.' },
-  { image: 'assets/healthcare-team.png', alt: 'Kenyan healthcare team in medical uniforms; illustrative campaign image', kicker: 'FOR KENYA’S CARE COMMUNITY', title: 'Care looks good on you.' }
+  { image: 'assets/catalog/navy-scrubs.jpg', alt: 'Navy medical scrub set — illustrative product photo', kicker: 'THE EVERYDAY ESSENTIAL', title: 'Made to move with you.' },
+  { image: 'assets/catalog/doctor-coat.jpg', alt: 'White laboratory coat — illustrative product photo', kicker: 'CONFIDENCE IN EVERY DETAIL', title: 'Professional. Practical. You.' },
+  { image: 'assets/catalog/clogs.jpg', alt: 'Navy medical clogs displayed without a model', kicker: 'FOR EVERY STEP OF YOUR SHIFT', title: 'Your next pair, covered.' }
 ];
 let slideIndex = 0;
 function nextSlide() {
@@ -76,3 +78,28 @@ const observer = new IntersectionObserver(entries => {
 }, { rootMargin: '-15% 0px -55% 0px', threshold: 0 });
 document.querySelectorAll('main section[id]').forEach(section => observer.observe(section));
 document.querySelector('#year').textContent = new Date().getFullYear();
+
+// Use the supplied banner as the brand as soon as the exact file is uploaded.
+// Keep the existing readable brand if the asset is absent; never show a broken logo.
+const suppliedLogo = new Image();
+suppliedLogo.onload = () => {
+  document.querySelectorAll('.brand').forEach(brand => {
+    const logo = suppliedLogo.cloneNode();
+    logo.className = 'brand-logo';
+    logo.alt = 'EMA Agencies Medical Wear';
+    brand.replaceChildren(logo);
+  });
+};
+suppliedLogo.src = 'assets/Ema%20Agencies%20Medical%20Wear%20Banner.png';
+
+// Fixed product URLs only. A failed host must never substitute an unrelated image.
+function showProductPlaceholder(image) {
+  if (image.dataset.fallbackApplied) return;
+  image.dataset.fallbackApplied = 'true';
+  image.src = 'assets/photo-unavailable.svg';
+  image.alt = 'Product photo unavailable. Request current photos on WhatsApp.';
+}
+document.querySelectorAll('main img').forEach(image => {
+  image.addEventListener('error', () => showProductPlaceholder(image));
+  if (image.complete && image.naturalWidth === 0) showProductPlaceholder(image);
+});
